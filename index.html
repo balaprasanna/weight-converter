@@ -40,12 +40,14 @@
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <h1 class="display-4 text-center mb-3">
-          Weight Converter
+          Trax PWA POC
         </h1>
         <form>
-          <div class="form-group">
-            <input type="number" class="form-control form-control-lg" id="lbsInput" placeholder="Enter pounds.."
-              required>
+          <div class="form-group display-4 text-center mb-3">
+            <a href="intent://startSession?storeNumber=101&clientSessionID=aaa#Intent;scheme=com.traxretail.traxretail;package=com.trax.retailexecution;end">
+              Try
+            </a>
+<!--            <input type="button" value="Click me" onclick="msg()">-->
           </div>
         </form>
         <div id="output">
@@ -73,6 +75,12 @@
       </div>
     </div>
   </div>
+
+  <script>
+    function msg() {
+      alert("Hello world!");
+    }
+  </script>
 
   <script src="js/app.js"></script>
 </body>
